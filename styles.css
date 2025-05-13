@@ -1,0 +1,125 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Styles for profile card */
+.profile-card {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Styling for header of the profile card */
+.profile-card header {
+    text-align: center;
+    padding: 15px;
+    background-color:rgb(23, 127, 23);
+    color: #fff;
+    font-weight: bold;
+}
+/* Styles the profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+/* Styles the profile name */
+.profile-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Styles the profile title with defined font size, color, and spacing */
+.profile-title {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Adds padding to the details section for better spacing */
+.profile-details {
+    padding: 15px;
+}
+
+/* Styles the bio with readable font size, spacing, and color */
+.profile-bio {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+/* Styles the skills list and individual skill items */
+.profile-skills {
+    list-style: none;
+    padding: 15px;
+}
+
+.profile-skills li {
+    display: inline-block;
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Styles the footer with background color, spacing, and text alignment */
+.profile-footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Styles the social links for better visibility and interaction */
+.social-link {
+    display: inline-block;
+    color: #006400;
+    margin: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link:hover img {
+    color: #ffb700;
+}
+
+/* Removes default bullet points from the unordered list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Adjusts image size for social icons */
+.social-link img {
+    width: 30px;
+    height: 30px;
+}
